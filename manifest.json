@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Full Screen YouTube",
+  "version": "1",
+  "description": "Sets the YouTube video on full screen-tab mode",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+
+  "background": {
+    "scripts": ["contents.js"],
+    "persistent": false
+  },
+
+  "permissions": ["<all_urls>"]
+}
